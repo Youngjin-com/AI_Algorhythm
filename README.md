@@ -11,7 +11,7 @@
 - 실습 화면이나 실행 순서가 책과 다를 경우, 이 저장소의 각 장 내용을 참고해 주세요.
 
 <p align="left">
-  <img src="https://www.youngjin.com/images/book_cover/9788931480498.jpg" height="350px" style="border: 1px solid grey;">
+  <img src="https://www.youngjin.com/images/book_cover/9788931481556.png" height="350px" style="border: 1px solid grey;">
 </p>
 
 ---
