@@ -19,7 +19,7 @@
 ## 📝 정오표
 
 책에 포함된 오탈자 및 수정 사항은 아래 정오표에서 확인하실 수 있습니다.  
-또한 [Issues 탭](https://github.com/Youngjin-com/Cursor/issues)을 통해 직접 제보해 주실 수도 있습니다.
+또한 [Issues 탭](https://github.com/Youngjin-com/AI_Algorhythm/issues)을 통해 직접 제보해 주실 수도 있습니다.
 
 👉 [정오표 바로가기](ERRATA.md)
 
