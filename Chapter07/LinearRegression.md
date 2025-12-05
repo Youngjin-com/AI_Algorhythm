@@ -1,6 +1,6 @@
 # Chapter 7
 
-# 선형 회귀 (Linear Regression)
+# 선형 회귀  
 
 ## sklearn 설치
 

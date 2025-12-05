@@ -1,8 +1,8 @@
 # Chapter 13
 
-# 데이터 처리를 위한 알고리즘 전략 (Algorithmic Strategies for Data Handling)
+# 데이터 처리를 위한 알고리즘 전략  
 
-## Python에서 허프만 코딩 구현하기 (Implementing Huffman coding in Python)
+## Python에서 허프만 코딩 구현하기  
 
 ### Node 클래스 정의
 
@@ -27,7 +27,7 @@ class Node:
 
 ---
 
-## 허프만 트리 구축 함수 (Build Huffman Tree Function)
+## 허프만 트리 구축 함수  
 
 ```python
 def build_tree(frequencies):
@@ -45,7 +45,7 @@ def build_tree(frequencies):
 
 ---
 
-## 예제 사용 (Example usage)
+## 예제 사용  
 
 ```python
 frequencies = {'a': 5, 'b': 9, 'c': 12, 'd': 13, 'e': 16, 'f': 45}
@@ -60,7 +60,7 @@ print(root.freq)
 
 ---
 
-## 트리 순회를 통한 허프만 코드 생성 (Generate the Huffman codes by traversing the tree)
+## 트리 순회를 통한 허프만 코드 생성  
 
 ```python
 import heapq
@@ -107,7 +107,7 @@ def generate_codes(node, code='', codes=None):
 
 ---
 
-## 허프만 인코딩을 위한 샘플 데이터 (Sample data for Huffman's encoding)
+## 허프만 인코딩을 위한 샘플 데이터 
 
 ```python
 data = {
@@ -122,7 +122,7 @@ data = {
 
 ---
 
-## 허프만 트리 구축 및 코드 생성 (Build the Huffman tree and generate the Huffman codes)
+## 허프만 트리 구축 및 코드 생성  
 
 ```python
 root = build_tree(data)
@@ -131,7 +131,7 @@ codes = generate_codes(root)
 
 ---
 
-## 허프만 코드 출력 (Print the Huffman code)
+## 허프만 코드 출력  
 
 ```python
 # Print the root of the Huffman tree

@@ -1,8 +1,8 @@
 # Chapter 8
 
-# 딥러닝 (Deep Learning)
+# 딥러닝 
 
-## 경사 하강법 정의 (Defining Gradient Descent)
+## 경사 하강법 정의  
 
 ```python
 def adjust_position(gradient):
@@ -17,7 +17,7 @@ def adjust_position(gradient):
 
 ---
 
-## 활성화 함수 (Activation functions)
+## 활성화 함수  
 
 ```python
 def sigmoidFunction(z):
@@ -44,7 +44,7 @@ def leaky_relu(x, beta=0.01):
 
 ---
 
-## 하이퍼볼릭 탄젠트 (Hyperbolic tangent)
+## 하이퍼볼릭 탄젠트 
 
 ```python
 import numpy as np
@@ -68,7 +68,7 @@ def softmax(x):
 
 ---
 
-## Keras 모델 정의 (Defining a Keras model)
+## Keras 모델 정의  
 
 ```python
 import tensorflow as tf
@@ -87,7 +87,7 @@ model = tf.keras.models.Sequential([
 
 ---
 
-## Functional API 방식의 Keras 모델 정의 (Functional API way of defining a Keras model)
+## Functional API 방식의 Keras 모델 정의 
 
 ```python
 # Ensure TensorFlow 2.x is being used
@@ -151,7 +151,7 @@ Epoch 10/10
 
 ---
 
-## 텐서 수학 이해하기 (Understanding Tensor Mathematics)
+## 텐서 수학 이해하기  
 
 ```python
 print("Define constant tensors")
@@ -170,7 +170,7 @@ b = 3
 
 ---
 
-## 연산 실행 (Running operations)
+## 연산 실행  
 
 ```python
 print("Running operations, without tf.Session")

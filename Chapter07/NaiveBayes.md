@@ -1,6 +1,6 @@
 # Chapter 7
 
-# 나이브 베이즈 알고리즘 (Naive Bayes Algorithm)
+# 나이브 베이즈 알고리즘 
 
 ## 라이브러리 임포트
 

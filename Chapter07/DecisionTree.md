@@ -1,6 +1,6 @@
 # Chapter 7
 
-# 의사결정 트리 (Decision Tree)
+# 의사결정 트리 
 
 ## 라이브러리 임포트
 
@@ -143,7 +143,7 @@ plt.show()
 accuracy= metrics.accuracy_score(y_test,y_pred)
 recall = metrics.recall_score(y_test,y_pred)
 precision = metrics.precision_score(y_test,y_pred)
-print(accuracy,recall,precision)
+print(accuracy,recall,precision)s
 ```
 
 **결과:**

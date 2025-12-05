@@ -1,6 +1,6 @@
-# CHAPTER 4: 알고리즘 설계 (Designing Algorithms)
+# CHAPTER 4
 
-## 선형 프로그래밍을 이용한 용량 계획 (Capacity Planning with Linear Programming)
+## 선형 프로그래밍을 이용한 용량 계획  
 
 
 ## PuLP 설치

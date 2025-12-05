@@ -1,8 +1,8 @@
 # Chapter 5
 
-# 그래프 알고리즘 (Graph Algorithms)
+# 그래프 알고리즘 
 
-## 그래프 구조 및 유형 (Graph mechanics and types)
+## 그래프 구조 및 유형  
 
 ```python
 import networkx as nx
@@ -32,7 +32,7 @@ print(graph.edges())
 
 ---
 
-## 중심성 지표 계산 (Calculating centrality metrics)
+## 중심성 지표 계산 
 
 ```python
 import networkx as nx
@@ -43,7 +43,7 @@ edges = [(7, 2), (2, 3), (7, 4), (4, 5), (7, 3), (7, 5), (1, 6), (1, 7), (2, 8),
 
 ---
 
-## 그래프 생성 (Crafting the Graph)
+## 그래프 생성  
 
 ```python
 graph = nx.Graph()
@@ -53,7 +53,7 @@ graph.add_edges_from(edges)
 
 ---
 
-## 시각화 (Painting a picture)
+## 시각화 
 
 ```python
 nx.draw(graph, with_labels=True, node_color='y', node_size=800)
@@ -119,7 +119,7 @@ graph={ 'Amin'   : {'Wasim', 'Nick', 'Mike'},
 
 ---
 
-## BFS 알고리즘 구현 (BFS Algorithm Implementation)
+## BFS 알고리즘 구현  
 
 ```python
 def bfs(graph, start):
@@ -174,7 +174,7 @@ graph={ 'Amin' : {'Wasim', 'Nick', 'Mike'},
 
 ---
 
-## 사례 연구: SNA를 활용한 사기 탐지 (Case study: fraud detection using SNA)
+## 사례 연구: SNA를 활용한 사기 탐지 
 
 ```python
 import networkx as nx
@@ -204,4 +204,4 @@ nx.draw_networkx_labels(graph, positions, labels, font_size=16)
 nx.draw_networkx_edges(graph, positions, edges, width=3, alpha=0.5, edge_color='b')
 
 plt.show()  # Display the graph
-```
+```s

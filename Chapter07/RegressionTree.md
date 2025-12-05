@@ -1,6 +1,6 @@
 # Chapter 7
 
-# 의사결정 트리 회귀 (Decision Tree Regression)
+# 의사결정 트리 회귀 
 
 ## 라이브러리 임포트
 
@@ -83,7 +83,7 @@ y_pred = regressor.predict(X_test)
 
 ---
 
-## 성능 평가 (RMSE)
+## 성능 평가  
 
 ```python
 from sklearn.metrics import mean_squared_error

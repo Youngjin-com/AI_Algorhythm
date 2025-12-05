@@ -1,6 +1,6 @@
-# PageRank 알고리즘 (PageRank algorithm)
+# PageRank 알고리즘  
 
-## 필요한 라이브러리 임포트 (Importing necessary libraries)
+## 필요한 라이브러리 임포트  
 
 ```python
 import numpy as np
@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 
 ---
 
-## 방향 그래프 생성 및 노드와 엣지 추가 (Create a directed graph and add nodes and edges)
+## 방향 그래프 생성 및 노드와 엣지 추가  
 
 ```python
 my_web = nx.DiGraph()
@@ -22,7 +22,7 @@ my_web.add_edges_from(connections)
 
 ---
 
-## 그래프 시각화 (Plot the graph)
+## 그래프 시각화  
 
 ```python
 pos = nx.shell_layout(my_web)
@@ -32,7 +32,7 @@ plt.show()
 
 ---
 
-## 전이 행렬 생성 함수 (Function to create the transition matrix)
+## 전이 행렬 생성 함수  
 
 ```python
 def create_page_rank(a_graph):
@@ -49,7 +49,7 @@ def create_page_rank(a_graph):
 
 ---
 
-## 그래프의 전이 행렬 생성 (Generate the transition matrix for the graph)
+## 그래프의 전이 행렬 생성  
 
 ```python
 G, p = create_page_rank(my_web)

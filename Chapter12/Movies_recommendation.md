@@ -1,10 +1,10 @@
 # CHAPTER 12
 
-# 추천 엔진 (Recommendation Engines)
+# 추천 엔진 
 
-## 영화 추천 엔진 만들기 (Creating a Movies Recommendation Engine)
+## 영화 추천 엔진 만들기 
 
-### 1) 라이브러리 임포트 (Import libraries)
+### 1) 라이브러리 임포트  
 
 ```python
 import pandas as pd
@@ -18,7 +18,7 @@ warnings.filterwarnings('ignore')
 
 ---
 
-### 2) 데이터 탐색 (Data exploration)
+### 2) 데이터 탐색 
 
 ```python
 df_reviews = pd.read_csv('https://storage.googleapis.com/neurals/data/data/reviews.csv')
@@ -162,7 +162,7 @@ title
 
 ---
 
-### 3) 데이터를 좁은 형식에서 넓은 형식으로 변환 (Converting the data from narrow to wide format)
+### 3) 데이터를 좁은 형식에서 넓은 형식으로 변환  
 
 ```python
 movie_matrix = df.pivot_table(index='userId', columns='title', values='rating')

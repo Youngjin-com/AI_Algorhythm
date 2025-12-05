@@ -2,7 +2,7 @@
 
 @ Imran Ahmad
 
-## Lime 사용하기 (Using Lime)
+## Lime 사용하기  
 
 ### Lime 설치
 
@@ -48,7 +48,7 @@ Successfully installed lime-0.2.0.1
 
 ---
 
-## 필요한 패키지 임포트 (Import the necessary packages)
+## 필요한 패키지 임포트 
 
 ```python
 import sklearn

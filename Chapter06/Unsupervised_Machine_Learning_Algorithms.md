@@ -1,10 +1,10 @@
 # CHAPTER 6
 
-# 비지도 머신러닝 알고리즘 (Unsupervised Machine Learning Algorithms)
+# 비지도 머신러닝 알고리즘 
 
-## 1 - K-means 알고리즘 (K-means Algorithm)
+## 1 - K-means 알고리즘  
 
-### STEP 1- 패키지 임포트 (Import packages)
+### STEP 1- 패키지 임포트  
 
 ```python
 from sklearn import cluster
@@ -14,7 +14,7 @@ import numpy as np
 
 ---
 
-### STEP 2- 데이터 (Data)
+### STEP 2- 데이터 
 
 ```python
 dataset = pd.DataFrame({
@@ -25,7 +25,7 @@ dataset = pd.DataFrame({
 
 ---
 
-### STEP 3- 모델 학습 (Training the Model)
+### STEP 3- 모델 학습  
 
 ```python
 kmeans = cluster.KMeans(n_clusters=2)
@@ -43,7 +43,7 @@ KMeans(n_clusters=2)
 
 ---
 
-### STEP 4- 레이블 및 클러스터 중심 출력 (Printing labels and cluster centers)
+### STEP 4- 레이블 및 클러스터 중심 출력  
 
 ```python
 labels = labels = kmeans.labels_
@@ -68,7 +68,7 @@ print(centers)
 
 ---
 
-### STEP 5- 플롯 (Plot)
+### STEP 5- 플롯 
 
 ```python
 import matplotlib.pyplot as plt
@@ -84,9 +84,9 @@ No description has been provided for this image
 
 ---
 
-## 2 계층적 알고리즘 (Hierarchical Algorithm)
+## 2 계층적 알고리즘  
 
-### STEP 1: 패키지 임포트 (Import Packages)
+### STEP 1: 패키지 임포트  
 
 ```python
 from sklearn.cluster import AgglomerativeClustering
@@ -96,7 +96,7 @@ import numpy as np
 
 ---
 
-### STEP 2: 데이터프레임 생성 (Create Dataframe)
+### STEP 2: 데이터프레임 생성 
 
 ```python
 dataset = pd.DataFrame({
@@ -107,7 +107,7 @@ dataset = pd.DataFrame({
 
 ---
 
-### STEP 3: 클러스터 생성 (Create Clusters)
+### STEP 3: 클러스터 생성  
 
 ```python
 cluster = AgglomerativeClustering(n_clusters=2, affinity='euclidean', linkage='ward')
@@ -123,7 +123,7 @@ array([0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0])
 
 ---
 
-### STEP 4: 클러스터 출력 (Print Clusters)
+### STEP 4: 클러스터 출력  
 
 ```python
 print(cluster.labels_)
@@ -283,7 +283,7 @@ import pyfpgrowth as fp
 
 ---
 
-### STEP 2: 트랜잭션 데이터셋 생성 (Create Transaction Dataset)
+### STEP 2: 트랜잭션 데이터셋 생성  
 
 ```python
 dict1 = {
@@ -309,7 +309,7 @@ id	items
 
 ---
 
-### STEP 4: 빈발 패턴 및 규칙 생성 (Generating the frequent patterns and the rules)
+### STEP 4: 빈발 패턴 및 규칙 생성  
 
 ```python
 patterns = fp.find_frequent_patterns(transactionSet['items'],1)
@@ -359,7 +359,7 @@ rules
  ('helmet', 'pads'): (('bat',), 1.0),
  ('helmet', 'wickets'): (('bat', 'pads'), 1.0),
  ('bat', 'helmet'): (('pads',), 1.0),
- ('bat', 'helmet', 'pads'): (('wickets',), 0.5),
+ ('bat', 'helmet', 'pads'): (('wickets',), 0.5),s
  ('bat', 'helmet', 'wickets'): (('pads',), 1.0),
  ('bat', 'pads', 'wickets'): (('helmet',), 1.0),
  ('helmet', 'pads', 'wickets'): (('bat',), 1.0)}

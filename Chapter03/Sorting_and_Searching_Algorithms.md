@@ -1,8 +1,8 @@
 # Chapter 3
 
-# 정렬 및 검색 알고리즘 (Sorting and Searching Algorithms)
+# 정렬 및 탐색 알고리즘
 
-## Python에서의 교환 함수 (Swap Function in Python)
+## Python에서의 교환 함수  
 
 ```python
 var_1 = 1
@@ -18,9 +18,9 @@ print(var_1,var_2)
 
 ---
 
-## 정렬 알고리즘 (Sorting Algorithms)
+## 정렬 알고리즘  
 
-### 버블 정렬의 패스 1 (Pass 1 of Bubble Sort)
+### 버블 정렬의 패스 1  
 
 ```python
 list = [25,21,22,24,23,27,26]
@@ -55,7 +55,7 @@ list
 
 ---
 
-### 버블 정렬 알고리즘 (Bubble Sort Algorithm)
+### 버블 정렬 알고리즘  
 
 ```python
 def bubble_sort(list):
@@ -78,7 +78,7 @@ bubble_sort(list)
 
 ---
 
-### 버블 정렬 최적화 (Optimizating bubble sort)
+### 버블 정렬 최적화  
 
 ```python
 def optimized_bubble_sort(list):
@@ -104,7 +104,7 @@ optimized_bubble_sort(list)
 
 ---
 
-### 삽입 정렬 (Insertion Sort)
+### 삽입 정렬 
 
 ```python
 def insertion_sort(elements):
@@ -131,7 +131,7 @@ insertion_sort(list)
 
 ---
 
-### 병합 정렬 (Merge Sort)
+### 병합 정렬  
 
 ```python
 def merge_sort(elements):
@@ -180,7 +180,7 @@ merge_sort(list)
 
 ---
 
-### 셸 정렬 (Shell Sort)
+### 셸 정렬  
 
 ```python
 def shell_sort(elements):
@@ -209,7 +209,7 @@ shell_sort(list)
 
 ---
 
-### 선택 정렬 (Selection Sort)
+### 선택 정렬 
 
 ```python
 def selection_sort(list):
@@ -232,9 +232,9 @@ selection_sort(list)
 
 ---
 
-## 검색 알고리즘 (Searching Algorithms)
+## 검색 알고리즘 
 
-### 선형 검색 (Linear Search)
+### 선형 검색  
 
 ```python
 def linear_search(list, item):
@@ -262,7 +262,7 @@ False
 
 ---
 
-### 이진 검색 (Binary Search)
+### 이진 검색  
 
 ```python
 def binary_search(elements, item):
@@ -294,7 +294,7 @@ False
 
 ---
 
-### 보간 검색 (Intpolation Search)
+### 보간 검색  
 
 ```python
 def int_polsearch(list,x ):

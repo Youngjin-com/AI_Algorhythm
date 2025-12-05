@@ -1,10 +1,10 @@
 # Chapter 11
 
-# 고급 순차 모델링 알고리즘 (Advanced Sequential Modeling Algorithms)
+# 고급 순차 모델링 알고리즘  
 
-## Part1- 오토인코더 코딩 (Coding Autoencoders)
+## Part1- 오토인코더 코딩 
 
-### 필요한 라이브러리 임포트 (Import Necessary Libraries)
+### 필요한 라이브러리 임포트  
 
 ```python
 import tensorflow as tf
@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 
 ---
 
-### MNIST 데이터 로드 (Load the MNIST Data)
+### MNIST 데이터 로드  
 
 ```python
 # Load dataset
@@ -26,7 +26,7 @@ x_train, x_test = x_train / 255.0, x_test / 255.0
 
 ---
 
-### 모델 정의 (Define the Model)
+### 모델 정의  
 
 ```python
 # Define the autoencoder model
@@ -40,7 +40,7 @@ model = tf.keras.Sequential([
 
 ---
 
-### 모델 컴파일 (Compile the Model)
+### 모델 컴파일  
 
 ```python
 model.compile(loss='binary_crossentropy', optimizer='adam')
@@ -48,7 +48,7 @@ model.compile(loss='binary_crossentropy', optimizer='adam')
 
 ---
 
-### 모델 학습 (Train the Model)
+### 모델 학습  
 
 ```python
 model.fit(x_train, x_train, epochs=10, batch_size=128, validation_data=(x_test, x_test))
@@ -56,7 +56,7 @@ model.fit(x_train, x_train, epochs=10, batch_size=128, validation_data=(x_test, 
 
 ---
 
-### 예측 (Prediction)
+### 예측 
 
 ```python
 # For an autoencoder, the encoder and decoder parts are usually separate.
@@ -67,7 +67,7 @@ decoded_data = model.predict(encoded_data)
 
 ---
 
-### 시각화 (Visualization)
+### 시각화  
 
 ```python
 # Display original and reconstructed images
@@ -91,9 +91,9 @@ plt.show()
 
 ---
 
-## Part2- 셀프 어텐션 (Self Attention)
+## Part2- 셀프 어텐션 
 
-### 라이브러리 임포트 (Importing necessary libraries)
+### 라이브러리 임포트  
 
 ```python
 import numpy as np
@@ -101,7 +101,7 @@ import numpy as np
 
 ---
 
-### 셀프 어텐션 함수 정의 (Defining the self-attention function)
+### 셀프 어텐션 함수 정의  
 
 ```python
 def self_attention(Q, K, V):
@@ -125,9 +125,9 @@ def self_attention(Q, K, V):
 
 ---
 
-### 예제 사용 (Example Usage)
+### 예제 사용  
 
-### 행렬 초기화 (Initialize matrices)
+### 행렬 초기화  
 
 ```python
 Q = np.array([[1, 0, 1], [0, 2, 0], [1, 1, 0]])  # Example Query
@@ -137,7 +137,7 @@ V = np.array([[0, 2, 0], [1, 0, 1], [0, 1, 2]])  # Value matrix
 
 ---
 
-### 셀프 어텐션 함수를 사용하여 출력 계산 (Compute the output using the self_attention function)
+### 셀프 어텐션 함수를 사용하여 출력 계산  
 
 ```python
 output = self_attention(Q, K, V)
@@ -145,7 +145,7 @@ output = self_attention(Q, K, V)
 
 ---
 
-### 결과 출력 (Display the result)
+### 결과 출력  
 
 ```python
 print(output)

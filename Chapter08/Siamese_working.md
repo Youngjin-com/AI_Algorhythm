@@ -1,8 +1,8 @@
 # Chapter 8
 
-# 샴 네트워크 (Siamese Networks)
+# 샴 네트워크 
 
-## 임포트 (Import statements)
+## 임포트  
 
 ```python
 import random
@@ -12,7 +12,7 @@ import tensorflow as tf
 
 ---
 
-## 데이터 준비 함수 (prepareData function)
+## 데이터 준비 함수 
 
 ```python
 def prepareData(inputs: np.ndarray, labels: np.ndarray):
@@ -35,7 +35,7 @@ def prepareData(inputs: np.ndarray, labels: np.ndarray):
 
 ---
 
-## 템플릿 생성 함수 (createTemplate function)
+## 템플릿 생성 함수  
 
 ```python
 def createTemplate():

@@ -1,8 +1,8 @@
 # Chapter 14
 
-# 암호학 (Cryptography)
+# 암호학 
 
-## 시저 암호 (Caesar cipher)
+## 시저 암호  
 
 ```python
 rotation = 3
@@ -36,7 +36,7 @@ PNYZ
 
 ---
 
-## MD5 해시 이해하기 (Understanding MD5-tolerated)
+## MD5 해시 이해하기  
 
 ```python
 import hashlib
@@ -75,7 +75,7 @@ True
 
 ---
 
-## 보안 해싱 알고리즘 이해하기 (Understanding Secure Hashing Algorithm)
+## 보안 해싱 알고리즘 이해하기  
 
 ```python
 import hashlib
@@ -95,7 +95,7 @@ myHash
 
 ---
 
-## 대칭 암호화 코딩 (Coding symmetric encryption)
+## 대칭 암호화 코딩 
 
 ```python
 import hashlib
@@ -112,7 +112,7 @@ b6ee63a201c4505f1f50ff92b7fe9d9e881b57292c00a3244008b76d0e026161
 
 ---
 
-## MITM 공격 방지 방법 (How to prevent MITM attacks)
+## MITM 공격 방지 방법 
 
 ```python
 from xmlrpc.client import SafeTransport, ServerProxy
@@ -121,7 +121,7 @@ import ssl
 
 ---
 
-## 데이터 및 모델 암호화 (Data and Model encryption)
+## 데이터 및 모델 암호화  
 
 ```python
 # 1. Install and import required libraries

@@ -1,6 +1,6 @@
 # Chapter 7
 
-# 그래디언트 부스팅 (Gradient Boosting)
+# 그래디언트 부스팅  
 
 ## 라이브러리 임포트
 
@@ -86,11 +86,11 @@ GradientBoostingRegressor(learning_rate=0.01, max_depth=4, n_estimators=500)
 ```python
 # Predicting the Test set result
 y_pred = regressor.predict(X_test)
-```
+```s
 
 ---
 
-## 성능 평가 (RMSE)
+## 성능 평가 
 
 ```python
 from sklearn.metrics import mean_squared_error

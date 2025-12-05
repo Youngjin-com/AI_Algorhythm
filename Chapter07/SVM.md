@@ -1,6 +1,6 @@
 # Chapter 7
 
-# 서포트 벡터 머신 (Support Vector Machine - SVM)
+# 서포트 벡터 머신  
 
 ## 라이브러리 임포트
 

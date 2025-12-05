@@ -1,8 +1,8 @@
 # Chapter 4
 
-# 외판원 문제 (Travelling Saleman Problem)
+# 외판원 문제  
 
-## 1- 무차별 대입 전략 (Brute-force strategy)
+## 1- 무차별 대입 전략  
 
 ```python
 import random
@@ -14,7 +14,7 @@ from time import time
 
 ---
 
-## 거리 및 경로 계산 (Distance and Tour calculations)
+## 거리 및 경로 계산  
 
 ```python
 aCity = complex
@@ -38,7 +38,7 @@ def generate_cities(number_of_cities):
 
 ---
 
-## 무차별 대입 알고리즘 (Brute Force Algorithm)
+## 무차별 대입 알고리즘  
 
 ```python
 def brute_force(cities):
@@ -50,7 +50,7 @@ def shortest_tour(tours):
 
 ---
 
-## 시각화 (Visualization)
+## 시각화  
 
 ```python
 def visualize_tour(tour, style='bo-'):
@@ -74,7 +74,7 @@ def Y(city):
 
 ---
 
-## TSP 함수 (TSP function)
+## TSP 함수 
 
 ```python
 def tsp(algorithm, cities):
@@ -93,7 +93,7 @@ def name(algorithm):
 
 ---
 
-## 실행 (Lets run it)
+## 실행  
 
 ```python
 tsp(brute_force, generate_cities(10))
@@ -101,7 +101,7 @@ tsp(brute_force, generate_cities(10))
 
 ---
 
-## 2- 탐욕 알고리즘 (Greedy Algorithm)
+## 2- 탐욕 알고리즘  
 
 
 ```python

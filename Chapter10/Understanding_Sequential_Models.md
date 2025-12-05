@@ -1,6 +1,6 @@
 # Chapter 10
 
-# 순차 모델 이해하기 (Understanding Sequential Models)
+# 순차 모델 이해하기 
 
 ## 데이터 로드 및 전처리
 

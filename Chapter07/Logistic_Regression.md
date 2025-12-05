@@ -1,6 +1,6 @@
 # Chapter 7
 
-# 로지스틱 회귀 - 날씨 데이터 (Logistic Regression - Weather Data)
+# 로지스틱 회귀 - 날씨 데이터  
 
 ## 라이브러리 임포트 및 데이터 로드
 

@@ -1,8 +1,8 @@
 # Chapter 09
 
-# 자연어 처리 (Natural Language Processing)
+# 자연어 처리  
 
-## 토큰화 (Tokenization)
+## 토큰화  
 
 ```python
 import nltk
@@ -18,7 +18,7 @@ True
 
 ---
 
-## 단어 토큰화 (Word Tokenization)
+## 단어 토큰화 
 
 ```python
 from nltk.tokenize import word_tokenize
@@ -35,7 +35,7 @@ print(tokens)
 
 ---
 
-## 문장 토큰화 (Sentence Tokenization)
+## 문장 토큰화 
 
 ```python
 from nltk.tokenize import sent_tokenize
@@ -54,7 +54,7 @@ print(sentences)
 
 ---
 
-## 단락 토큰화 함수 (Paragraph Tokenization Function)
+## 단락 토큰화 함수 
 
 ```python
 def tokenize_paragraphs(text):
@@ -65,7 +65,7 @@ def tokenize_paragraphs(text):
 
 ---
 
-## Python을 사용한 데이터 정제 (Cleaning data using Python)
+## Python을 사용한 데이터 정제  
 
 ```python
 import string
@@ -90,7 +90,7 @@ True
 
 ---
 
-## 텍스트 정제 함수 (Text Cleaning Function)
+## 텍스트 정제 함수  
 
 ```python
 def clean_text(text):
@@ -140,7 +140,7 @@ clean_text(corpus)
 
 ---
 
-## 문서 행렬 (Document Matrix) - CountVectorizer
+## 문서 행렬  
 
 ```python
 from sklearn.feature_extraction.text import CountVectorizer
@@ -167,7 +167,7 @@ print(tdm.toarray())
 
 ---
 
-## TF-IDF 벡터화 (TF-IDF Vectorization)
+## TF-IDF 벡터화  
 
 ```python
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -202,7 +202,7 @@ useful: [0.         0.         0.66283998]
 
 ---
 
-## Word2Vec을 이용한 단어 임베딩 (Implementing word embedding with Word2Vec)
+## Word2Vec을 이용한 단어 임베딩 
 
 ```python
 import gensim
@@ -233,7 +233,7 @@ print(model.wv.similarity('car', 'apple'))
 
 ---
 
-## 사례 연구: 레스토랑 리뷰 감성 분석 (Case study: Restaurant review sentiment analysis)
+## 사례 연구: 레스토랑 리뷰 감성 분석  
 
 ```python
 import nltk
