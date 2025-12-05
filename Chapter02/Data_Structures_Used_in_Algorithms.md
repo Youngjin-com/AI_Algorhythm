@@ -1,10 +1,6 @@
 # CHAPTER 2
 
-# 알고리즘에 사용되는 데이터 구조 (Data Structures Used in Algorithms)
-
-## 1 Python에서 데이터 구조 탐색하기 (Exploring data structures in Python)
-
-### 1.1 리스트 (Lists)
+### 리스트 (Lists)
 
 ```python
 list_a = ["John", 33,"Toronto", True]
@@ -37,7 +33,7 @@ bin_colors[1]
 
 ---
 
-### 1.1.2 슬라이싱 (Slicing)
+### 슬라이싱
 
 ```python
 bin_colors[0:2]
@@ -77,7 +73,7 @@ bin_colors[:2]
 
 ---
 
-### 1.1.3 음수 인덱스 (Negative Indices)
+### 음수 인덱스
 
 ```python
 bin_colors[:-1]
@@ -108,7 +104,7 @@ bin_colors[-2:-1]
 
 ---
 
-### 1.1.4 중첩 (Nesting)
+### 중첩
 
 ```python
 a = [1,2,[100,200,300],6]
@@ -131,7 +127,7 @@ a[2][1]
 
 ---
 
-### 1.1.5 반복 (Iteration)
+### 반복
 
 ```python
 for aColor in bin_colors:
@@ -161,7 +157,7 @@ combined_list
 
 ---
 
-## 튜플 (Tuples)
+## 튜플
 
 ```python
 bin_colors=('Red','Green','Blue','Yellow')
@@ -194,7 +190,7 @@ The maximum value of the inner tuple 300
 
 ---
 
-## 1.2 딕셔너리 (Dictionary)
+## 딕셔너리
 
 ```python
 bin_colors ={
@@ -240,7 +236,7 @@ print(bin_colors)
 
 ---
 
-## 1.3 집합 (Set)
+## 집합 (Set)
 
 ```python
 green = {'grass', 'leaves'}
@@ -274,7 +270,7 @@ The intersaction of yellow and red is {'fire hydrant', 'leaves'}
 
 ---
 
-## 1.4 데이터프레임 (DataFrame)
+## 데이터프레임
 
 ```python
 import pandas as pd
@@ -296,7 +292,7 @@ print(df)
 
 ---
 
-### 1.4.1 열 선택 (Column Selection)
+### 열 선택
 
 ```python
 df[['name','age']]
@@ -308,42 +304,6 @@ name	age
 0	Fares	32
 1	Elena	23
 2	Steven	40
-```
-
----
-
-## 값 (Values)
-
-**결과:**
-```
-No description has been provided for this image
-```
-
----
-
-## 분포 (Distributions)
-
-**결과:**
-```
-No description has been provided for this image
-```
-
----
-
-## 범주형 분포 (Categorical distributions)
-
-**결과:**
-```
-No description has been provided for this image
-```
-
----
-
-## 패싯 분포 (Faceted distributions)
-
-**결과:**
-```
-No description has been provided for this image
 ```
 
 ---
@@ -364,7 +324,7 @@ Name: decision, dtype: bool
 
 ---
 
-### 1.4.2 행 선택 (Row Selection)
+### 행 선택
 
 ```python
 df.iloc[1:3,:]
@@ -420,7 +380,7 @@ class Stack:
 
 ---
 
-## 스택에 요소 추가 (Populate the stack)
+## 스택에 요소 추가
 
 ```python
 stack=Stack()
